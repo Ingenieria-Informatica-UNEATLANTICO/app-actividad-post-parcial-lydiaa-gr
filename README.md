@@ -11,7 +11,7 @@
 | ![Diagrama de Clases](images/DiagramaClases.png) |        |
 | **Diagrama de Objetos**        | [Código](modelosUML/DiagramaObjetos.puml) |
 | ![Diagrama de Objetos](images/DiagramaObjetos.png) |        |
-| **Diagrama de Estado del Pasajero** | [Código](modelosUML/DiagramaEstadoPasajero.puml) |
+| **Diagrama de Estado del Pasajero** | [Código](modelosUML/DiagramaEstadosPasajero.puml) |
 | ![Diagrama de Estado del Pasajero](images/DiagramaEstadoPasajero.png) |        |
 | **Diagrama de Estado de Ruta** | [Código](modelosUML/DiagramaEstadosRuta.puml) |
 | ![Diagrama de Estado de Ruta](images/DiagramaEstadosRuta.png) |        |
