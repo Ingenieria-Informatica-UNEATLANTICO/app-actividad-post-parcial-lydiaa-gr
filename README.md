@@ -17,7 +17,17 @@
 |  <p align="center">![Diagrama de Estado de Ruta](images/DiagramaEstadosRuta.png) | [Código](modelosUML/DiagramaEstadosRuta.puml) |
 
 ---
-## Modelo del dominio iteración 1
+## Modelo del dominio con iteración
+|                    |  |
+| ----------------------------- | ------ |
+**Diagrama de Clases**       
+|  <p align="center">![Diagrama de Clases](images/DiagramaClasesIteracion.png) |[Código](modelosUML/DiagramaClasesIteracion.puml)|
+| **Diagrama de Objetos**        
+|  <p align="center">![Diagrama de Objetos](images/DiagramaObjetosIteracion.png) | [Código](modelosUML/DiagramaObjetosIteracion.puml) |
+| **Diagrama de Estado del Pasajero** 
+|  <p align="center">![Diagrama de Estado del Pasajero](images/DiagramaEstadosPasajeroIteracion.png) | [Código](modelosUML/DiagramaEstadosPasajeroIteracion.puml) |
+| **Diagrama de Estado de Ruta** 
+|  <p align="center">![Diagrama de Estado de Ruta](images/DiagramaEstadosRutaIteracion.png) | [Código](modelosUML/DiagramaEstadosRutaIteracion.puml) |
 
 
 
