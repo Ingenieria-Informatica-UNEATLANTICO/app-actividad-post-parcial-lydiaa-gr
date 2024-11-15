@@ -3,6 +3,6 @@
 [*] --> EnEspera
 EnEspera --> DentroDelBusCaminoAlDestino
 DentroDelBusCaminoAlDestino --> LLegadaAlDestino
- LLegadaAlDestino --> [*]
+LLegadaAlDestino --> [*]
 
 @enduml
