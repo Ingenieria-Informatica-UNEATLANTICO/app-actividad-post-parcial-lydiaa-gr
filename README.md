@@ -16,5 +16,8 @@
 | **Diagrama de Estado de Ruta** 
 |  <p align="center">![Diagrama de Estado de Ruta](images/DiagramaEstadosRuta.png) | [Código](modelosUML/DiagramaEstadosRuta.puml) |
 
+---
+## Modelo del dominio iteración 1
+
 
 
