@@ -13,7 +13,6 @@ class Vehiculo
 class SistemaDePago
 
 ' Relación de asociación
-Pasajero --> Tarifa : paga
 Pasajero --> Servicio : utiliza
 Conductor --> Flota : asignado a
 Incidencia --> Servicio : ocurre en
