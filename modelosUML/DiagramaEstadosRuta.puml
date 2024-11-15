@@ -1,0 +1,12 @@
+@startuml
+
+[*] --> SinEmpezar
+SinEmpezar --> InicioRuta
+InicioRuta --> Atiempo
+Atiempo --> ConRetraso
+ConRetraso --> EnEspera
+EnEspera --> FinRuta
+Atiempo --> FinRuta
+FinRuta --> [*]
+
+@enduml

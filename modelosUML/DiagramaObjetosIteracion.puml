@@ -1,0 +1,70 @@
+@startuml
+
+object Pasajero_1 {
+    nombre = "Lydia"
+}
+
+object Conductor_1 {
+    nombre = "Pepe"
+}
+
+object Incidencia_1 {
+    tipo = "Retraso"
+    descripcion = "Tráfico pesado"
+}
+
+object Ruta_1 {
+    nombre = "Ruta 1"
+}
+
+object Horario_1 {
+    horaSalida = "08:00"
+    horaLlegada = "09:30"
+}
+
+object Parada_1 {
+    nombre = "Parada 1"
+}
+
+object Parada_2 {
+    nombre = "Parada 2"
+}
+
+object Flota_1 {
+    tipoVehiculo = "Autobuses"
+}
+
+object Vehiculo_1 {
+    tipoVehiculo = "Autobús"
+    placa = "6666XXXX"
+}
+
+object Tarifa_1 {
+    monto = "1.20 $"
+}
+
+object SistemaDePago {
+    modo = "Efectivo"
+}
+
+object Servicio_1 {
+    estado = "En curso"
+}
+
+' Relación de asociación
+Pasajero_1 --> Servicio_1 : utiliza
+Conductor_1 --> Flota_1 : asignado a
+Incidencia_1 --> Servicio_1 : ocurre en
+Incidencia_1 --> Ruta_1 : afecta a
+Ruta_1 --> Parada_1 : contiene
+Ruta_1 --> Parada_2 : contiene
+Ruta_1 --> Horario_1 : sigue
+Servicio_1 --> Ruta_1 : opera en
+Servicio_1 --> Conductor_1 : asignado a
+Servicio_1 --> Flota_1 : utiliza
+Servicio_1 --> Tarifa_1 : aplica
+Flota_1 --> Vehiculo_1 : incluye
+Pasajero_1 --> SistemaDePago : realiza pago
+SistemaDePago --> Tarifa_1 : gestiona
+
+@enduml

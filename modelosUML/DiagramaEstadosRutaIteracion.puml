@@ -1,0 +1,16 @@
+@startuml
+
+[*] --> Espera
+Espera --> Espera
+Espera --> InicioRuta
+InicioRuta --> Atiempo
+InicioRuta --> ConRetraso
+ConRetraso --> EnEspera
+EnEspera --> FinRuta
+Atiempo --> FinRuta
+FinRuta --> Espera
+FinRuta --> FinDia
+FinDia --> [*]
+
+@enduml
+

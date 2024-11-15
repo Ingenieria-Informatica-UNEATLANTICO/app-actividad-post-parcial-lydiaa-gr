@@ -1,0 +1,11 @@
+@startuml
+
+[*] --> EnEspera
+EnEspera --> EnEspera
+EnEspera --> DentroDelBusCaminoAlDestino
+DentroDelBusCaminoAlDestino --> LLegadaAlDestino
+LLegadaAlDestino --> EnEspera
+LLegadaAlDestino --> FinViaje
+FinViaje --> [*]
+
+@enduml
