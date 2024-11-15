@@ -1,1 +1,32 @@
+@startuml
+
+class Pasajero
+class Conductor
+class Incidencia
+class Ruta
+class Horario
+class Parada
+class Flota
+class Tarifa
+class Servicio
+class Vehiculo
+class SistemaDePago
+
+' Relación de asociación
+Pasajero --> Tarifa : paga
+Pasajero --> Servicio : utiliza
+Conductor --> Flota : asignado a
+Incidencia --> Servicio : ocurre en
+Incidencia --> Ruta : afecta a
+Ruta --> Parada : contiene
+Ruta --> Horario : sigue
+Servicio --> Ruta : opera en
+Servicio --> Conductor : asignado a
+Servicio --> Flota : utiliza
+Servicio --> Tarifa : aplica
+Flota --> Vehiculo : incluye
+Pasajero --> SistemaDePago : realiza pago
+SistemaDePago --> Tarifa : gestiona
+
+@enduml
 
